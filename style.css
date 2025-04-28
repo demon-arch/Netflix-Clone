@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    background-color: #141414;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 10%, transparent);
+    transition: background-color 0.4s ease;
+    z-index: 1000;
+}
+
+.navbar.scrolled {
+    background-color: #141414;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+/* Hero Banner */
+.hero-banner {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 2rem;
+    background-image: url('https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg');
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, #141414 0%, transparent 50%);
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 15%;
+    max-width: 600px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+/* Movie Rows */
+.movie-rows {
+    padding: 0 4%;
+    margin-bottom: 3rem;
+}
+
+.row-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.movie-row {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px 0;
+    scrollbar-width: none; /* Firefox */
+}
+
+.movie-row::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.movie-card {
+    width: 200px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+    position: relative;
+    cursor: pointer;
+}
+
+.movie-card:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* Modal */
+.modal-content {
+    background-color: #141414;
+    border: 1px solid #333;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.movie-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.movie-info p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.movie-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: #777;
+}
+
+.movie-meta span {
+    color: #46d369;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+    
+    .movie-card {
+        width: 150px;
+    }
+}
