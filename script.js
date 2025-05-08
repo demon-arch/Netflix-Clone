@@ -1,3 +1,15 @@
+  // Play button click
+  document.getElementById('heroPlayBtn').addEventListener('click', function () {
+    const videoUrl = "https://www.youtube.com/embed/b9EkMc79ZSU?autoplay=1"; // Change this if needed
+    document.getElementById('heroVideo').src = videoUrl;
+    document.getElementById('heroVideoContainer').classList.remove('d-none');
+  });
+
+  // Close button click
+  document.getElementById('closeHeroVideo').addEventListener('click', function () {
+    document.getElementById('heroVideo').src = ""; // Stop video
+    document.getElementById('heroVideoContainer').classList.add('d-none');
+  });
 
 document.addEventListener('DOMContentLoaded', function() {
     fetch('data.json')
@@ -15,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
             navbar.classList.add('scrolled');
         } else {
             navbar.classList.remove('scrolled');
-        }
+        } 
     });
 });
 
@@ -76,10 +88,25 @@ function displayMovieModal(movie) {
                 </div>
                 <p>${movie.description}</p>
                 <div>
-                    <button class="btn btn-danger me-2"><i class="fas fa-play"></i> Play</button>
-                    <button class="btn btn-outline-secondary"><i class="fas fa-plus"></i> My List</button>
+                    <button class="btn btn-danger me-2" id="playButton"><i class="fas fa-play"></i> Play</button>
+                </div>
+                <div id="videoContainer" class="d-none mt-3" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);">
+                    <iframe id="movieVideo" src="${movie.youtubeUrl}?autoplay=1" frameborder="0" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>
     `;
+
+    const playButton = document.getElementById('playButton');
+    const videoContainer = document.getElementById('videoContainer');
+
+    playButton.addEventListener('click', function() {
+        playButton.style.display = 'none'; // Hide the play button
+        videoContainer.classList.remove('d-none'); // Show the video container
+    });
 }
+

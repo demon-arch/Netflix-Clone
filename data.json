@@ -1,170 +1,169 @@
 {
-    "categories": [
-      {
-        "name": "Popular on Netflix",
-        "movies": [
-          {
-            "id": 1,
-            "title": "Stranger Things",
-            "poster": "https://image.tmdb.org/t/p/w500/xdaUXA2ndChsYGLN1D2eclOhu6s.jpg",
-            "year": 2016,
-            "rating": 95,
-            "runtime": "4 Seasons",
-            "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
-            "youtubeId": "b9EkMc79ZSU"
+  "categories": [
+    {
+      "name": "Popular on Netflix",
+      "movies": [
+        {
+          "id": 1,
+          "title": "Stranger Things",
+          "poster": "https://cdn.europosters.eu/image/750/132237.jpg",
+          "year": 2016,
+          "rating": 95,
+          "runtime": "4 Seasons",
+          "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=b9EkMc79ZSU"
+        },
+        {
+          "id": 2,
+          "title": "The Witcher",
+          "poster": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
+          "year": 2019,
+          "rating": 88,
+          "runtime": "3 Seasons",
+          "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=tjujvMkqWe4"
+        },
+        {
+          "id": 3,
+          "title": "Money Heist",
+          "poster": "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+          "year": 2017,
+          "rating": 92,
+          "runtime": "5 Seasons",
+          "description": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=p_PJbmrX4uk"
+        },
+        {
+          "id": 4,
+          "title": "Baahubali the Conclusion",
+          "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjatzR_Y3vdUpmBd5NPCBO1f13ZCxb_-kufg&s",
+          "year": 2017,
+          "rating": 97,
+          "runtime": "2nd part",
+          "description": "Baahubali 2: The Conclusion is an epic action drama that reveals why Kattappa killed Baahubali. The story follows Amarendra Baahubali’s rise, betrayal by his own kin, and his son Mahendra’s quest for justice. With stunning visuals and powerful storytelling, it’s a tale of loyalty, revenge, and destiny.",
+          "youtubeUrl": "https://www.youtube-nocookie.com/embed/jTcizgWhOzg?si=jIuW9HKmREw1OF-r&amp;start=16"  
+        },
+        {
+          "id": 5,
+          "title": "The Queen's Gambit",
+          "poster": "https://image.tmdb.org/t/p/w500/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg",
+          "year": 2020,
+          "rating": 89,
+          "runtime": "1 Season",
+          "description": "In a 1950s orphanage, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=CDrieqwSdgI"
+        }
+      ]
+    },
+    {
+      "name": "Trending Now",
+      "movies": [
+        {
+          "id": 6,
+          "title": "Squid Game",
+          "poster": "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+          "year": 2021,
+          "rating": 85,
+          "runtime": "1 Season",
+          "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=oqxAJKy0ii4"
+        },
+        {
+          "id": 7,
+          "title": "Wednesday",
+          "poster": "https://image.tmdb.org/t/p/w500/jeGtaMwGxPmQN5xM4ClnwPQcNQz.jpg",
+          "year": 2022,
+          "rating": 87,
+          "runtime": "1 Season",
+          "description": "While attending Nevermore Academy, Wednesday Addams attempts to master her emerging psychic ability, thwart a killing spree and solve the mystery.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=Q73UhUTs6y0"
+        },
+        {
+          "id": 8,
+          "title": "The Last of Us",
+          "poster": "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+          "year": 2023,
+          "rating": 94,
+          "runtime": "1 Season",
+          "description": "After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=uLtkt8BonwM"
+        },
+        {
+          "id": 9,
+          "title": "Peaky Blinders",
+          "poster": "https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
+          "year": 2013,
+          "rating": 91,
+          "runtime": "6 Seasons",
+          "description": "A notorious gang in 1919 Birmingham, England, is led by the fierce Tommy Shelby, a crime boss set on moving up in the world no matter the cost.",
+          "youtubeUrl": "https://www.youtube.com/embed/L02hwp6mGsk?si=n6n5ZkJtKGcY1u5_&amp;start=12" 
           },
-          {
-            "id": 2,
-            "title": "The Witcher",
-            "poster": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
-            "year": 2019,
-            "rating": 88,
-            "runtime": "3 Seasons",
-            "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
-            "youtubeId": "tjujvMkqWe4"
-          },
-          {
-            "id": 3,
-            "title": "Money Heist",
-            "poster": "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
-            "year": 2017,
-            "rating": 92,
-            "runtime": "5 Seasons",
-            "description": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
-            "youtubeId": "p_PJbmrX4uk"
-          },
-          {
-            "id": 4,
-            "title": "Breaking Bad",
-            "poster": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
-            "year": 2008,
-            "rating": 97,
-            "runtime": "5 Seasons",
-            "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
-            "youtubeId": "HhesaQXLuRY"
-          },
-          {
-            "id": 5,
-            "title": "The Queen's Gambit",
-            "poster": "https://image.tmdb.org/t/p/w500/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg",
-            "year": 2020,
-            "rating": 89,
-            "runtime": "1 Season",
-            "description": "In a 1950s orphanage, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction.",
-            "youtubeId": "CDrieqwSdgI"
-          }
-        ]
-      },
-      {
-        "name": "Trending Now",
-        "movies": [
-          {
-            "id": 6,
-            "title": "Squid Game",
-            "poster": "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
-            "year": 2021,
-            "rating": 85,
-            "runtime": "1 Season",
-            "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
-            "youtubeId": "oqxAJKy0ii4"
-          },
-          {
-            "id": 7,
-            "title": "Wednesday",
-            "poster": "https://image.tmdb.org/t/p/w500/jeGtaMwGxPmQN5xM4ClnwPQcNQz.jpg",
-            "year": 2022,
-            "rating": 87,
-            "runtime": "1 Season",
-            "description": "While attending Nevermore Academy, Wednesday Addams attempts to master her emerging psychic ability, thwart a killing spree and solve the mystery.",
-            "youtubeId": "Q73UhUTs6y0"
-          },
-          {
-            "id": 8,
-            "title": "The Last of Us",
-            "poster": "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
-            "year": 2023,
-            "rating": 94,
-            "runtime": "1 Season",
-            "description": "After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.",
-            "youtubeId": "uLtkt8BonwM"
-          },
-          {
-            "id": 9,
-            "title": "Peaky Blinders",
-            "poster": "https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
-            "year": 2013,
-            "rating": 91,
-            "runtime": "6 Seasons",
-            "description": "A notorious gang in 1919 Birmingham, England, is led by the fierce Tommy Shelby, a crime boss set on moving up in the world no matter the cost.",
-            "youtubeId": "oVzVdvGIC7U"
-          },
-          {
-            "id": 10,
-            "title": "Dark",
-            "poster": "https://image.tmdb.org/t/p/w500/5DU7PQzvqF7Jf8w6ZJYq8xRZ20I.jpg",
-            "year": 2017,
-            "rating": 89,
-            "runtime": "3 Seasons",
-            "description": "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.",
-            "youtubeId": "rrwycJ08PSA"
-          }
-        ]
-      },
-      {
-        "name": "TV Dramas",
-        "movies": [
-          {
-            "id": 11,
-            "title": "House of the Dragon",
-            "poster": "https://image.tmdb.org/t/p/w500/etj8E2o0Bud0HkONVQPjyCkIvpv.jpg",
-            "year": 2022,
-            "rating": 86,
-            "runtime": "1 Season",
-            "description": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights.",
-            "youtubeId": "DotnJ7tTA34"
-          },
-          {
-            "id": 12,
-            "title": "The Crown",
-            "poster": "https://image.tmdb.org/t/p/w500/jl69o1OPB1Xh0jR7M2iJq1mk8hG.jpg",
-            "year": 2016,
-            "rating": 88,
-            "runtime": "5 Seasons",
-            "description": "This drama follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
-            "youtubeId": "JWtnJjn6ng0"
-          },
-          {
-            "id": 13,
-            "title": "Better Call Saul",
-            "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
-            "year": 2015,
-            "rating": 93,
-            "runtime": "6 Seasons",
-            "description": "The trials and tribulations of criminal lawyer Jimmy McGill in the years leading up to his fateful run-in with Walter White and Jesse Pinkman.",
-            "youtubeId": "HN4oydykJFc"
-          },
-          {
-            "id": 14,
-            "title": "Ozark",
-            "poster": "https://image.tmdb.org/t/p/w500/pCGy6fmmU3mnQZvwGun6n3QrDx8.jpg",
-            "year": 2017,
-            "rating": 84,
-            "runtime": "4 Seasons",
-            "description": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
-            "youtubeId": "5hAXVqrljbs"
-          },
-          {
-            "id": 15,
-            "title": "The Mandalorian",
-            "poster": "https://image.tmdb.org/t/p/w500/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
-            "year": 2019,
-            "rating": 85,
-            "runtime": "3 Seasons",
-            "description": "After the fall of the Galactic Empire, a lone gunfighter makes his way through the lawless outer reaches of the galaxy.",
-            "youtubeId": "aOC8E8z_ifw"
-          }
-        ]
-      }
-    ]
-  }
-  
+        {
+          "id": 10,
+          "title": "Dark",
+          "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18367226_b_v13_aa.jpg",
+          "year": 2017,
+          "rating": 89,
+          "runtime": "3 Seasons",
+          "description": "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=rrwycJ08PSA"
+        }
+      ]
+    },
+    {
+      "name": "TV Dramas",
+      "movies": [
+        {
+          "id": 11,
+          "title": "House of the Dragon",
+          "poster": "https://image.tmdb.org/t/p/w500/etj8E2o0Bud0HkONVQPjyCkIvpv.jpg",
+          "year": 2022,
+          "rating": 86,
+          "runtime": "1 Season",
+          "description": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=DotnJ7tTA34"
+        },
+        {
+          "id": 12,
+          "title": "The Crown",
+          "poster": "https://image.tmdb.org/t/p/w500/jl69o1OPB1Xh0jR7M2iJq1mk8hG.jpg",
+          "year": 2016,
+          "rating": 88,
+          "runtime": "5 Seasons",
+          "description": "This drama follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=JWtnJjn6ng0"
+        },
+        {
+          "id": 13,
+          "title": "Better Call Saul",
+          "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+          "year": 2015,
+          "rating": 93,
+          "runtime": "6 Seasons",
+          "description": "The trials and tribulations of criminal lawyer Jimmy McGill in the years leading up to his fateful run-in with Walter White and Jesse Pinkman.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=HN4oydykJFc"
+        },
+        {
+          "id": 14,
+          "title": "Ozark",
+          "poster": "https://image.tmdb.org/t/p/w500/pCGy6fmmU3mnQZvwGun6n3QrDx8.jpg",
+          "year": 2017,
+          "rating": 84,
+          "runtime": "4 Seasons",
+          "description": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=5hAXVqrljbs"
+        },
+        {
+          "id": 15,
+          "title": "The Mandalorian",
+          "poster": "https://image.tmdb.org/t/p/w500/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
+          "year": 2019,
+          "rating": 85,
+          "runtime": "3 Seasons",
+          "description": "After the fall of the Galactic Empire, a lone gunfighter makes his way through the lawless outer reaches of the galaxy.",
+          "youtubeUrl": "https://www.youtube.com/watch?v=aOC8E8z_ifw"
+        }
+      ]
+    }
+  ]
+}
